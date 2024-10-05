@@ -21,4 +21,5 @@ if (mounth1 = mounth2) and (date1 > date2) then
   Println(1)
 else
   Println(2);
+Println($'Количество дней в году: {year}')
 end.
