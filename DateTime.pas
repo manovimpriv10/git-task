@@ -12,7 +12,4 @@ if year = 365 then
   Println('False')
 else
   Println('True');
-  var s := ReadInteger('min: ');
-  Assert(s >=0 );
-  Println($'Секунд: {s * 60}')
 end.
