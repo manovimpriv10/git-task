@@ -30,6 +30,11 @@ for var i := year1 to year2 do
     Days += 366
   else
     Days += 365;
-  Println($'Количество дней между годами {Days}')
+  Println($'Количество дней между годами {Days}');
+  var hours := ReadInteger('Введите количество часов: ');
+  Assert(hours > 0);
+  var CountSec: Integer;
+  CountSec := 3600*hours;
+  Println($'Количество секунд: {CountSec}')
 end.
   
